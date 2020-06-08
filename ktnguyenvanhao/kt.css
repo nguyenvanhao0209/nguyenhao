@@ -1,0 +1,226 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+.menu {
+    width: 1535px;
+    height: 30px;
+    background-color: #E5E4E4;
+   
+   }
+
+
+.menu > ul >li:hover >a{
+    background-color: white;
+    color: black;
+    }
+    .menu{
+    background-color: #f7f5f5;
+    position: absolute;
+    width:1535px;
+    height: 30px;
+    top: 300px;
+    left: 340px;
+    z-index: 1;
+    transform: scale(0);
+    animation-name: menu;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-delay: 2.2s; 
+}
+.menu > ul{
+    list-style: none;
+}
+.menu > ul > li{
+    float: left;
+    color: red;   
+}
+
+@keyframes menu{
+    0%{
+        transform: scale(1);
+        top: 300px;
+        left: 340px;
+    }
+    50%{
+        transform: scale(1);
+        top: 0;
+        left: 340px;
+    }
+    60%{
+        transform: scale(1);
+        top: 0;
+        left: 800px;
+        background-color: #f7f5f5;
+    }
+    80%{
+        transform: scale(1);
+        top: 0;
+        left: 0px;
+    }
+    100%{
+        transform: scale(1);
+        top: 0;
+        left: 0px;
+        z-index: 0;
+        background-color: #bbb1b1;
+    }
+}
+
+.noi-dung {
+    width: 1440px;
+    height: 700px;
+    border: 1px solid gray;
+    margin-top: 2%;
+    margin-left: 3%;
+    position: relative;
+}
+.trai {
+    width: 730px;
+    height: 600px;
+    /* background-color: #551A8B; */
+    position: absolute;
+    top: 7%;
+    left: 0;
+    z-index: 2;
+}
+.trai a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.phai {
+    width: 600px;
+    height: 650px;
+    /* background-color: aqua; */
+    position: absolute;
+    top: 7%;
+    right: 0;
+    z-index: 3;
+}
+.hinh {
+    width: 600px;
+    height: 250px;
+  
+}
+
+.silide {
+    margin-top: 20px;
+}
+.silide img {
+    width: 180px;
+    height: 120px;
+}
+article {
+    width: 180px;
+    float: left;
+    margin-right: 10px;
+    margin-top: 30px;
+}
+article img {
+    width: 180px;
+    height: 110px;
+    /* float: left; */
+}
+article a {
+    text-decoration: none;
+}
+.tieude a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.tintrai1 {
+    margin-bottom: 20px;
+    border-bottom: 2px solid gray;
+}
+.tintrai1 p {
+    margin-bottom: 20px;
+}
+.tintrai2 {
+    margin-bottom: 20px;
+    border-bottom: 2px solid gray;
+}
+.trai2 a{
+    margin-bottom: 20px;
+}
+.tintrai2 p {
+    margin-bottom: 20px;
+}
+.tintrai3 {
+    border-bottom: 2px solid gray ;
+}
+.tintrai3 p{
+    margin-bottom: 20px;
+}
+.lien-quan {
+    margin-top: 10px;
+    width: 360px;
+    height: 30px;
+    border-bottom: 2px solid red;
+}
+.lien-quan p {
+    display: inline;
+    /* background-color: blue; */
+    margin-right: 10px;
+    color: gray;
+}
+.tin2 {
+    margin-top: 20px;
+}
+.trai1 {
+    width: 365px;
+    height: 650px;
+    padding-left: 10px;
+    /* background-color: brown; */
+    float: left;
+}
+.trai2 {
+    width: 350px;
+    height: 650px;
+    position: absolute;
+    top: 0;
+    left: 390px;
+}
+.trai1 img {
+    width: 360px;
+    height: 260px;
+}
+.menu > ul {
+    list-style: none;
+}
+.menu-noi-dung > ul {
+    list-style: none;
+}
+.menu-noi-dung > ul > li {
+    float: left;;
+}
+.menu-noi-dung > ul > li > a {
+    text-decoration: none;
+    font-size: 16px;
+    display: block;
+    padding: 10px 10px;
+}
+.menu > ul > li {
+    float: left;
+}
+.menu > ul > li > a {
+    text-decoration: none;
+    font-size:  18px;
+    padding:  10px 20px;
+    color:  #551A8B;
+    border-radius: 3px;
+    border-right: 1px solid white;
+    display: block;
+}
+.xinchao {
+    transform: scale(0);
+    width: auto;
+    position: absolute;
+    right: 600px;
+    z-index: 4;
+}
